@@ -1,0 +1,20 @@
+//  CHAUDHARY ANKIT
+// Roll No- 19/BHP/008
+// PROGRAME TO FIND THE AREA OF RECTANGLE
+#include <iostream>
+using namespace std;
+int main()
+{
+float length,breadth, AREA;
+
+cout<< "enter the value of length in metre " ;
+cin>> length ;
+
+cout<< "enter the value of breadth in metre " ;
+cin>> breadth;
+
+AREA= (length*breadth);
+cout<<"area of rectangle in (metre)^2 is " <<AREA ;
+return 0;
+
+}
