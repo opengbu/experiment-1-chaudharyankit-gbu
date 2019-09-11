@@ -1,20 +1,32 @@
-//  CHAUDHARY ANKIT
-// Roll No- 19/BHP/008
-// PROGRAME TO FIND THE AREA OF RECTANGLE
-#include <iostream>
+// SUBMITTED BY CHAUDHARY ANKIT
+//Bsc(H) Physics
+// Roll no-19/BHP/008
+// PROGRAME FOR GREATEST OF THREE NUMBERS
+
+
+#include <iostream>6
 using namespace std;
 int main()
-{
-float length,breadth, AREA;
-
-cout<< "enter the value of length in metre " ;
-cin>> length ;
-
-cout<< "enter the value of breadth in metre " ;
-cin>> breadth;
-
-AREA= (length*breadth);
-cout<<"area of rectangle in (metre)^2 is " <<AREA ;
-return 0;
-
+{    
+    float a1, a2, a3;
+    cout<<"give the value of a1  ";
+    cin>>a1;
+    
+    cout<<"give the value of a2  ";
+    cin>>a2;
+    cout<< "give the value of a3  ";
+    cin>>a3;
+    
+    if(a1 > a2 && a1 > a3)
+    {
+        cout << "Largest number: " << a1;
+    }
+    if(a2 > a1 && a2 >  a3)
+    {
+        cout << "Largest number: " << a2;
+    }
+    if(a3 > a1 && a3 >= a2) {
+        cout << "Largest number is  " << a3;
+    }
+    return 0;
 }
